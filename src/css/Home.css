@@ -1,0 +1,89 @@
+ /* Home.css */
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .home-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+    animation: fadeInDown 1s ease-in-out;
+  }
+  
+  .home-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #666;
+    animation: fadeInDown 1.2s ease-in-out;
+  }
+  
+  .home-section p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #666;
+    animation: fadeInDown 1.4s ease-in-out;
+  }
+  
+  .download-button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: fadeInUp 1.6s ease-in-out;
+  }
+  
+  .download-button:hover {
+    background-color: #e5533d;
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+  @media (max-width: 768px) {
+    .home-section h1 {
+      font-size: 36px;
+    }
+  
+    .home-section h2 {
+      font-size: 24px;
+    }
+  
+    .home-section p {
+      font-size: 18px;
+    }
+  
+    .download-button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+}  

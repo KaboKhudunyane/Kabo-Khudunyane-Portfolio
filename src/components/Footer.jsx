@@ -1,8 +1,10 @@
+import "../css/Footer.css"
+
 const Footer = () => {
   return (
-    <div>
-      <h4>The entirety of this site is protected by Copyright © 2024</h4>
-      <h4>Designed & Maintained by Kabo Khudunyane</h4>
+    <div className="footer-container">
+      <h4>&copy; 2024 All rights reserved. Privacy Policy</h4>
+      <h4>Designed and maintained by Kabo Khudunyane</h4>
     </div>
   );
 };

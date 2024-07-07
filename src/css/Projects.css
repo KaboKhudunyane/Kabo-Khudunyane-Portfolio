@@ -1,0 +1,120 @@
+/* Projects.css */
+.projects-section {
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .projects-section h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    text-align: left;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .card-description,
+  .card-use {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .card-source-code {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .source-code-button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .source-code-button:hover {
+    background-color: #e5533d;
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+  @media (max-width: 768px) {
+    .projects-section h1 {
+      font-size: 28px;
+    }
+  
+    .project-card {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .card-title {
+      font-size: 20px;
+    }
+  
+    .card-description,
+    .card-use {
+      font-size: 14px;
+    }
+  
+    .source-code-button {
+      padding: 8px 16px;
+      font-size: 12px;
+    }
+  }
+  
