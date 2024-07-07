@@ -1,4 +1,3 @@
-Kabo Khudunyane's Portfolio
 Welcome to my portfolio! This project showcases my skills and projects as a Junior Software Engineer and third-year Applications Development student.
 
 I created this portfolio to highlight my journey in software engineering and share the projects I've worked on. It serves as a showcase of my skills, experiences, and interests in the tech industry.
