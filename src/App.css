@@ -1,0 +1,182 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e3651d;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.home-container,
+.aboutMe-container,
+.resume-container,
+.projects-container,
+.technologies-container,
+.contactMe-container,
+.footer-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Navbar specific styles */
+.navBar-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #e3651d;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* AboutMe component styles */
+.aboutHeading {
+  text-align: center;
+}
+
+.aboutImage {
+  width: 100px;
+  height: 100px;
+  background-image: url("../assets/KaboImage.jpeg");
+  background-color: #ccc;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.aboutInfo {
+  text-align: justify;
+}
+
+/* Education, Project, and Technology cards styles */
+.education-cards,
+.project-cards,
+.technology-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.technology-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.java-card,
+.javascript-card,
+.sql-card,
+.html-card,
+.css-card,
+.react-card,
+.node-card {
+  width: calc(30% - 20px); /* Adjust width with margin included */
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0; /* Remove margin-right and adjust margin-top/bottom */
+}
+
+/* Individual card styles */
+.hsCard,
+.hcCard,
+.dipCard,
+.home-garden-agency-card,
+.kalculator-app-card,
+.java-card,
+.javascript-card,
+.sql-card,
+.html-card,
+.css-card,
+.react-card,
+.node-card {
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Form styles */
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.message-container {
+  width: 30%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.name-form,
+.email-form,
+.message-form {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.message-form {
+  height: 150px;
+}
+
+/* Button styles */
+.homeButton,
+.aboutMeButton,
+.resumeButton,
+.projectsButton,
+.technologiesButton,
+.contactMeButton,
+.downloadButton,
+.sendButton,
+.faqButton,
+.privacyPolicyButton,
+.disclailmerButton,
+.termsAndConditionsButton,
+.java-button,
+.sql-button,
+.derby-button,
+.source-code-button,
+.react-button,
+.node-button,
+.css-button {
+  background-color: #e3651d;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 8px;
+}
+
+/* Button hover effect */
+.homeButton:hover,
+.aboutMeButton:hover,
+.resumeButton:hover,
+.projectsButton:hover,
+.technologiesButton:hover,
+.contactMeButton:hover,
+.downloadButton:hover,
+.sendButton:hover,
+.faqButton:hover,
+.privacyPolicyButton:hover,
+.disclailmerButton:hover,
+.termsAndConditionsButton:hover,
+.java-button:hover,
+.sql-button:hover,
+.derby-button:hover,
+.source-code-button:hover,
+.react-button:hover,
+.node-button:hover,
+.css-button:hover {
+  background-color: #f89a64;
+}
