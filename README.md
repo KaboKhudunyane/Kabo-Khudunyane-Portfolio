@@ -5,13 +5,6 @@ I created this portfolio to highlight my journey in software engineering and sha
 Technologies Used: 
 Node.js, React.js, JavaScript, HTML5, CSS3 
 
-Features:
-Home: Introduction and download link for my resume.
-About Me: Information about my background, skills, and academic journey.
-Projects: Showcase of projects I've worked on, including descriptions and source code links.
-Technologies: List of technologies I've used, with brief descriptions.
-Contact Me: Form to send messages and links to my social profiles.
-
 To run this project locally, follow these steps:
 
 Installation
