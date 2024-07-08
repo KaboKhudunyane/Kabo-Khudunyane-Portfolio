@@ -6,7 +6,6 @@ import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
-import "./App.css";
 
 const App = () => {
   const homeRef = useRef(null);
