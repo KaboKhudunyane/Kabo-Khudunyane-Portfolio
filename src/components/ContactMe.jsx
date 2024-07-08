@@ -1,14 +1,60 @@
-import {} from 'react';
-import '../css/ContactMe.css'; // Import your CSS file for ContactMe
+import { useState } from 'react';
+import axios from 'axios';
+import '../css/ContactMe.css';
 import cellLogo from '../assets/cell-logo.png';
-import linkedInLogo from '../assets/linkedIn-logo.png';
+import linkedInLogo from '../assets/linkedin-logo.png';
 import githubLogo from '../assets/github-logo.png';
 
 const ContactMe = () => {
-  const handleSubmit = (e) => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState(null);
+
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [id]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Add logic here to handle form submission (e.g., sending data to backend)
-    // You can fetch the input values using document.getElementById or use a state management solution like React hooks
+    setIsSubmitting(true);
+    setError(null);
+
+    const repoOwner = 'KaboKhudunyane';
+    const repoName = 'Kabo-Khudunyane-Portfolio';
+    const githubToken = import.meta.env.VITE_GITHUB_TOKEN;
+
+    const issueData = {
+      title: `Contact form submission from ${formData.name}`,
+      body: `**Name:** ${formData.name}\n**Email:** ${formData.email}\n**Message:** ${formData.message}`,
+    };
+
+    try {
+      await axios.post(
+        `https://api.github.com/repos/${repoOwner}/${repoName}/issues`,
+        issueData,
+        {
+          headers: {
+            Authorization: `token ${githubToken}`,
+          },
+        }
+      );
+      alert('Message sent successfully!');
+      setFormData({ name: '', email: '', message: '' });
+    } catch (error) {
+      console.error('Error sending message', error);
+      setError('Failed to send message. Please try again later.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -16,29 +62,36 @@ const ContactMe = () => {
       <h1>Contact Me</h1>
 
       <div className="form-container">
+        {error && <p className="error-message">{error}</p>}
         <form onSubmit={handleSubmit}>
           <input
             type="text"
             className="name-form"
-            id="validationName"
+            id="name"
             placeholder="Name"
+            value={formData.name}
+            onChange={handleChange}
             required
           />
           <input
-            type="text"
+            type="email"
             className="email-form"
-            id="validationEmail"
+            id="email"
             placeholder="Email Address"
+            value={formData.email}
+            onChange={handleChange}
             required
           />
           <textarea
             className="message-form"
-            id="validationMessage"
+            id="message"
             placeholder="Message"
+            value={formData.message}
+            onChange={handleChange}
             required
           />
-          <button className="sendButton" type="submit">
-            Send Message
+          <button className="sendButton" type="submit" disabled={isSubmitting}>
+            {isSubmitting ? 'Sending...' : 'Send Message'}
           </button>
         </form>
       </div>
