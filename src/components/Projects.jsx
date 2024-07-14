@@ -6,10 +6,10 @@ import mysqlLogo from '../assets/mysql-logo.png';
 const Projects = () => {
   const projectList = [
     {
-      title: "Home & Garden Agency",
-      description: "A dynamic digital interface, enabling service providers to register and display their profiles. Clients can easily navigate through the listings, applying filters for job type, location, and rate fees.",
-      use: "University Project",
-      sourceCodeUrl: "https://github.com/",
+      title: "Simple Login Page",
+      description: "This project is a simple login page built using React. The page includes a heading, login form, and signup option, all styled using CSS.",
+      use: "Personal Project",
+      sourceCodeUrl: "https://github.com/KaboKhudunyane/Simple-Login-Page",
       image: mysqlLogo
     },
     {
@@ -17,6 +17,13 @@ const Projects = () => {
       description: "Streamlined calculator application, users can perform basic calculations effortlessly, an ideal tool for quick and easy math tasks.",
       use: "Personal Project",
       sourceCodeUrl: "https://github.com/KaboKhudunyane/Kalculator-App",
+      image: mysqlLogo
+    },
+    {
+      title: "To-Do List",
+      description: "A task tracker app that allows the user to enter a task, date and time which are then stored in a state and displayed in a list.",
+      use: "Personal Project",
+      sourceCodeUrl: "https://github.com/KaboKhudunyane/To-do-List",
       image: mysqlLogo
     }
   ];
