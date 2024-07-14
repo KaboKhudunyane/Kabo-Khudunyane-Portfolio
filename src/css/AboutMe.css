@@ -3,7 +3,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 20px; /* Adjust padding to avoid overlap with fixed navbar */
+    justify-content: center;
+
+    width: 100%; /* Ensure full width */
+    padding: 10px 20px; /* Adjust padding to avoid overlap with fixed navbar */
     background-color: #f9f9f9;
     color: #333;
     text-align: center;

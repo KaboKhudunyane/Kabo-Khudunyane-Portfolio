@@ -1,7 +1,10 @@
 /* ContactMe.css */
 .contact-me-section {
-    padding: 100px 20px;
+    padding: 15px 20px; /* Adjust padding to avoid overlap with fixed navbar */
     text-align: center;
+    width: 100%; /* Ensure full width */
+    background-color: #f9f9f9;
+    
   }
   
   .contact-me-section h1 {

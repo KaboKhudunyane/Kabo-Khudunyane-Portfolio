@@ -1,6 +1,7 @@
 /* Technologies.css */
 .technologies-container {
-    padding: 100px 20px;
+    padding: 10px 20px; /* Adjust padding to avoid overlap with fixed navbar */
+    background-color: #f9f9f9;
     text-align: center;
   }
   
@@ -18,6 +19,7 @@
   
   .technologies-grid {
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     justify-items: center;
@@ -61,4 +63,3 @@
       font-size: 28px;
     }
   }
-  

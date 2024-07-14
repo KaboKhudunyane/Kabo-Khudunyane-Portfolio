@@ -4,8 +4,7 @@ import Home from "./components/Home";
 import AboutMe from "./components/AboutMe"; 
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
-import ContactMe from "./components/ContactMe";
-import Footer from "./components/Footer";
+import ContactMe from "./components/ContactMe"; 
 
 const App = () => {
   const homeRef = useRef(null);
@@ -40,11 +39,6 @@ const App = () => {
       {renderSection(projectsRef, Projects, "projects-container")}
       {renderSection(technologiesRef, Technologies, "technologies-container")}
       {renderSection(contactMeRef, ContactMe, "contactMe-container")}
-
-      {/* Footer */}
-      <div className="footer-container">
-        <Footer />
-      </div>
     </div>
   );
 };
