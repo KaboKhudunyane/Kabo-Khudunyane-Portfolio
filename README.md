@@ -15,7 +15,7 @@ npm install
 
 After installation, start the development server:
 
-npm start
+npm start / npm run dev
 Open http://localhost:3000 to view it in your browser.
 
 License
