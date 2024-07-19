@@ -1,10 +1,11 @@
 import '../css/NavBar.css'
 import PropTypes from 'prop-types';
 
-const NavBar = ({ homeRef, aboutMeRef, projectsRef, technologiesRef, contactMeRef }) => {
+const NavBar = ({ homeRef, aboutMeRef, educationRef, projectsRef, technologiesRef, contactMeRef }) => {
   const sectionRefs = {
     Home: homeRef,
     "About Me": aboutMeRef,
+    educationRef: educationRef,
     Projects: projectsRef,
     Technologies: technologiesRef,
     Contact: contactMeRef,
@@ -18,7 +19,7 @@ const NavBar = ({ homeRef, aboutMeRef, projectsRef, technologiesRef, contactMeRe
     window.scrollTo({ top: y, behavior: 'smooth' });
   };
 
-  const sections = ["Home", "About Me", "Projects", "Technologies", "Contact"];
+  const sections = ["Home", "About Me", "Education","Projects", "Technologies", "Contact"];
 
   return (
     <div className="navbar">
@@ -38,6 +39,7 @@ const NavBar = ({ homeRef, aboutMeRef, projectsRef, technologiesRef, contactMeRe
 NavBar.propTypes = {
   homeRef: PropTypes.object.isRequired,
   aboutMeRef: PropTypes.object.isRequired,
+  educationRef: PropTypes.object.isRequired,
   projectsRef: PropTypes.object.isRequired,
   technologiesRef: PropTypes.object.isRequired,
   contactMeRef: PropTypes.object.isRequired,
