@@ -7,49 +7,55 @@ import reactLogo from '../assets/react-logo.png';
 import nodeLogo from '../assets/node-logo.png';
 import sqlLogo from '../assets/sql-logo.png';
 import cssLogo from '../assets/css-logo.png';
+import springLogo from '../assets/springboot-logo.png';
 import mysqlLogo from '../assets/mysql-logo.png';
 
 const Technologies = () => {
   const techData = [
     {
       name: 'Java',
-      description: 'I have worked with Java on academic projects, gaining foundational knowledge in object-oriented programming and application development.',
+      description: 'Developed academic projects focusing on object-oriented programming, enhancing my skills in building robust and efficient applications.',
       image: javaLogo,
+    },{
+      name: 'SQL',
+      description: 'Utilized SQL in various projects to design and manage databases, proficient in writing queries and performing data manipulation tasks.',
+      image: sqlLogo,
+    },{
+      name: 'MySQL',
+      description: 'Implemented MySQL databases in projects for data storage solutions, focusing on database design, normalization, and optimization techniques.',
+      image: mysqlLogo,
     },
     {
+      name: 'Spring Boot',
+      description: 'Built applications using Spring Boot for backend development, gaining experience in creating RESTful APIs and microservices architecture.',
+      image: springLogo,
+    },
+    
+    
+    {
       name: 'JavaScript',
-      description: 'I have used JavaScript in a few projects to add interactivity to web pages and understand basic concepts like functions and event handling.',
+      description: 'Implemented dynamic and interactive features on web pages, understanding core concepts such as DOM manipulation and asynchronous programming.',
       image: javascriptLogo,
     },
     {
-      name: 'SQL',
-      description: 'I have built applications using SQL databases for managing data and performing queries, learning fundamental database operations.',
-      image: sqlLogo,
-    },
-    {
-      name: 'HTML',
-      description: 'I am familiar with HTML for creating structured content and have used it in various web projects.',
-      image: htmlLogo,
-    },
-    {
-      name: 'CSS',
-      description: 'I have applied CSS to style and layout web pages, learning basic styling techniques and responsive design principles.',
-      image: cssLogo,
-    },
-    {
       name: 'React',
-      description: 'I have experimented with React, building simple applications like To-Do lists and basic UI components to understand its component-based architecture and state management.',
+      description: 'Developed user interfaces with React, building reusable components and managing application state using hooks and context API.',
       image: reactLogo,
     },
     {
       name: 'Node.js',
-      description: 'I have used Node.js in a few projects for server-side development, exploring its capabilities in building backend APIs and services.',
+      description: 'Explored server-side development with Node.js, creating RESTful APIs and handling server operations for full-stack applications.',
       image: nodeLogo,
     },
     {
-      name: 'MySQL',
-      description: 'I have built applications using SQL databases, focusing on managing data and executing queries, acquiring fundamental skills in database operations.',
-      image: mysqlLogo,
+      name: 'HTML',
+      description: 'Structured web content using HTML, applying semantic tags to enhance accessibility and SEO in web projects.',
+      image: htmlLogo,
+    },
+    {
+      name: 'CSS',
+      description: 'Styled web pages with CSS, focusing on responsive design principles and using frameworks like Bootstrap to ensure a consistent look across devices.',
+      image: cssLogo,
     },
   ];
 
