@@ -2,9 +2,33 @@ import {} from 'react';
 import '../css/Projects.css'; // Import your CSS file for Projects
 
 import mysqlLogo from '../assets/mysql-logo.png';
+import carshareLogo from "../assets/carshare-logo.png";
+import kalculatorLogo from "../assets/kalculator-logo.png";
+import toDoListLogo from "../assets/todolist-logo.png";
 
 const Projects = () => {
   const projectList = [
+    {
+      title: "Kalculator App",
+      description: "Streamlined calculator application, users can perform basic calculations effortlessly, an ideal tool for quick and easy math tasks.",
+      use: "Personal Project",
+      sourceCodeUrl: "https://github.com/KaboKhudunyane/Kalculator-App",
+      image: kalculatorLogo
+    },
+    {
+      title: "To-Do List",
+      description: "A task tracker app that allows the user to enter a task, date and time which are then stored in a state and displayed in a list.",
+      use: "Personal Project",
+      sourceCodeUrl: "https://github.com/KaboKhudunyane/To-do-List",
+      image: toDoListLogo
+    },
+    {
+      title: "Car Share Application",
+      description: "This project is a simple login page built using React. The page includes a heading, login form, and signup option, all styled using CSS.",
+      use: "University Project",
+      sourceCodeUrl: "https://github.com/KaboKhudunyane/Simple-Login-Page",
+      image: carshareLogo
+    },
     {
       title: "Simple Login Page",
       description: "This project is a simple login page built using React. The page includes a heading, login form, and signup option, all styled using CSS.",
@@ -12,20 +36,7 @@ const Projects = () => {
       sourceCodeUrl: "https://github.com/KaboKhudunyane/Simple-Login-Page",
       image: mysqlLogo
     },
-    {
-      title: "Kalculator App",
-      description: "Streamlined calculator application, users can perform basic calculations effortlessly, an ideal tool for quick and easy math tasks.",
-      use: "Personal Project",
-      sourceCodeUrl: "https://github.com/KaboKhudunyane/Kalculator-App",
-      image: mysqlLogo
-    },
-    {
-      title: "To-Do List",
-      description: "A task tracker app that allows the user to enter a task, date and time which are then stored in a state and displayed in a list.",
-      use: "Personal Project",
-      sourceCodeUrl: "https://github.com/KaboKhudunyane/To-do-List",
-      image: mysqlLogo
-    }
+    
   ];
 
   return (
