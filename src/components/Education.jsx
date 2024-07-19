@@ -7,10 +7,10 @@ const Education = () => {
   const educationList = [
   
     {
-      title: "National Higher Certificate ICT",
+      title: "Advanced Diploma ICT Applications Development",
       institution: "CPUT",
-      year: "2017",
-      nqfLevel: "NQF Level 5",
+      year: "2025",
+      nqfLevel: "NQF Level 7",
       image: cputLogo
     },
     {
@@ -21,10 +21,10 @@ const Education = () => {
       image: cputLogo
     },
     {
-      title: "Advanced Diploma ICT Applications Development",
+      title: "National Higher Certificate ICT",
       institution: "CPUT",
-      year: "2025",
-      nqfLevel: "NQF Level 7",
+      year: "2017",
+      nqfLevel: "NQF Level 5",
       image: cputLogo
     },
   ];
