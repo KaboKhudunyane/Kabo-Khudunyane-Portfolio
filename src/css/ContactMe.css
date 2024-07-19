@@ -1,5 +1,5 @@
 /* ContactMe.css */
-.contact-me-section {
+.contact-me-container {
     padding: 15px 20px; /* Adjust padding to avoid overlap with fixed navbar */
     text-align: center;
     width: 100%; /* Ensure full width */
@@ -7,7 +7,7 @@
     
   }
   
-  .contact-me-section h1 {
+  .contact-me-container h1 {
     font-size: 36px;
     margin-bottom: 40px;
     color: #333;

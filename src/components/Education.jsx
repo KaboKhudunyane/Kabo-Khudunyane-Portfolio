@@ -1,32 +1,38 @@
 import {} from 'react';
 import '../css/Education.css'; // Import your CSS file for Education
- 
-import cputLogo from '../assets/cput-logo.png';
+
+// Import your education images
+ import cputLogo from '../assets/cput-logo.png'; 
 
 const Education = () => {
   const educationList = [
-  
     {
       title: "Advanced Diploma ICT Applications Development",
-      institution: "CPUT",
+      institution: "Cape Peninsula University of Technology",
       year: "2025",
       nqfLevel: "NQF Level 7",
-      image: cputLogo
+      image: cputLogo,
+      url: "https://www.cput.ac.za/academic/faculties/informaticsdesign/prospectus"
     },
     {
       title: "National Diploma ICT Application Development",
-      institution: "CPUT",
+      institution: "Cape Peninsula University of Technology",
       year: "2024",
       nqfLevel: "NQF Level 6",
-      image: cputLogo
+      image: cputLogo,
+      url: "https://www.cput.ac.za/academic/faculties/informaticsdesign/prospectus"
     },
+    
     {
       title: "National Higher Certificate ICT",
-      institution: "CPUT",
+      institution: "Cape Peninsula University of Technology",
       year: "2017",
       nqfLevel: "NQF Level 5",
-      image: cputLogo
+      image: cputLogo,
+      url: "https://www.cput.ac.za/academic/faculties/informaticsdesign/prospectus"
     },
+    
+    
   ];
 
   return (
@@ -36,7 +42,13 @@ const Education = () => {
 
       <div className="education-grid">
         {educationList.map((education, index) => (
-          <div className="education-card" key={index}>
+          <a 
+            key={index}
+            href={education.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="education-card"
+          >
             <img src={education.image} alt={`${education.title} Logo`} />
             <div className="education-details">
               <h3>{education.title}</h3>
@@ -45,7 +57,7 @@ const Education = () => {
               {education.achievement && <p><strong>Achievement:</strong> {education.achievement}</p>}
               <p><strong>NQF Level:</strong> {education.nqfLevel}</p>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </section>

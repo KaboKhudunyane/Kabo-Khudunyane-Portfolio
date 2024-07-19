@@ -1,10 +1,10 @@
 import {} from 'react';
 import '../css/Projects.css'; // Import your CSS file for Projects
 
-import mysqlLogo from '../assets/mysql-logo.png';
 import carshareLogo from "../assets/carshare-logo.png";
 import kalculatorLogo from "../assets/kalculator-logo.png";
 import toDoListLogo from "../assets/todolist-logo.png";
+import loginImage from "../assets/loginImage.png";
 
 const Projects = () => {
   const projectList = [
@@ -34,13 +34,13 @@ const Projects = () => {
       description: "This project is a simple login page built using React. The page includes a heading, login form, and signup option, all styled using CSS.",
       use: "Personal Project",
       sourceCodeUrl: "https://github.com/KaboKhudunyane/Simple-Login-Page",
-      image: mysqlLogo
+      image: loginImage
     },
     
   ];
 
   return (
-    <section className="projects-container">
+    <section className="projects-section">
       <h1>Projects</h1>
       <h2>I have worked on the following projects</h2>
 
