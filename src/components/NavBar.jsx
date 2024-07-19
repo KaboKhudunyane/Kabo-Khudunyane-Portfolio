@@ -5,7 +5,7 @@ const NavBar = ({ homeRef, aboutMeRef, educationRef, projectsRef, technologiesRe
   const sectionRefs = {
     Home: homeRef,
     "About Me": aboutMeRef,
-    educationRef: educationRef,
+    Education: educationRef,
     Projects: projectsRef,
     Technologies: technologiesRef,
     Contact: contactMeRef,

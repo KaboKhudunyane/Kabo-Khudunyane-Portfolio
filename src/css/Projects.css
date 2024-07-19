@@ -1,14 +1,7 @@
-/* Projects.css */
 .projects-container {
   padding: 10px 20px; /* Adjust padding to avoid overlap with fixed navbar */
   background-color: #f9f9f9;
   text-align: center;
-}
-
-.projects-container h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: #333;
 }
 
 .projects-container h1 {
@@ -22,6 +15,7 @@
   margin-bottom: 40px;
   color: #666;
 }
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -37,6 +31,9 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   max-width: 250px; /* Adjusted max-width to match technology cards */
   width: 100%; /* Ensures cards take full width within the grid */
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color */
+  cursor: pointer; /* Change cursor to pointer to indicate clickability */
 }
 
 .project-card:hover {
@@ -64,17 +61,13 @@
 }
 
 .project-card button {
-  background-color: #007bff;
+  background-color: #ff6347;
   color: #fff;
   border: none;
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-}
-
-.project-card button:hover {
-  background-color: #0056b3;
 }
 
 @media (max-width: 768px) {

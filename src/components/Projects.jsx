@@ -13,6 +13,7 @@ const Projects = () => {
       description: "Streamlined calculator application, users can perform basic calculations effortlessly, an ideal tool for quick and easy math tasks.",
       use: "Personal Project",
       sourceCodeUrl: "https://github.com/KaboKhudunyane/Kalculator-App",
+      projectUrl: "https://github.com/KaboKhudunyane/Kalculator-App", // Replace with netlify project URL
       image: kalculatorLogo
     },
     {
@@ -20,6 +21,7 @@ const Projects = () => {
       description: "A task tracker app that allows the user to enter a task, date and time which are then stored in a state and displayed in a list.",
       use: "Personal Project",
       sourceCodeUrl: "https://github.com/KaboKhudunyane/To-do-List",
+      projectUrl: "https://github.com/KaboKhudunyane/To-do-List", // Replace with actual project URL
       image: toDoListLogo
     },
     {
@@ -27,16 +29,17 @@ const Projects = () => {
       description: "This project is a simple login page built using React. The page includes a heading, login form, and signup option, all styled using CSS.",
       use: "University Project",
       sourceCodeUrl: "https://github.com/KaboKhudunyane/Simple-Login-Page",
+      projectUrl: "https://github.com/KaboKhudunyane/Simple-Login-Page", // Replace with actual project URL
       image: carshareLogo
     },
     {
       title: "Simple Login Page",
       description: "This project is a simple login page built using React. The page includes a heading, login form, and signup option, all styled using CSS.",
       use: "Personal Project",
-      sourceCodeUrl: "https://github.com/KaboKhudunyane/Simple-Login-Page",
+      sourceCodeUrl: "hhttps://github.com/KaboKhudunyane/Simple-Login-Page",
+      projectUrl: "https://github.com/KaboKhudunyane/Simple-Login-Page", // Replace with actual project URL
       image: loginImage
     },
-    
   ];
 
   return (
@@ -46,7 +49,11 @@ const Projects = () => {
 
       <div className="projects-grid">
         {projectList.map((project, index) => (
-          <div className="project-card" key={index}>
+          <div 
+            key={index}
+            className="project-card"
+            onClick={() => window.open(project.projectUrl, "_blank")}
+          >
             <img src={project.image} alt="Project" />
             <div className="project-details">
               <h3>{project.title}</h3>
