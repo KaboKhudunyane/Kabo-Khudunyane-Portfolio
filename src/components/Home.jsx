@@ -8,8 +8,7 @@ const Home = () => {
       <h1>Hello</h1>
       <h2>I'm Kabo Khudunyane</h2>
       <p>
-        Junior Software Engineer and 3rd year Applications Development student
-        at Cape Peninsula University of Technology.
+        Junior Software Engineer with a strong foundation in Applications Development, recently graduated from Cape Peninsula University of Technology.
       </p>
       <br />
       <br />
