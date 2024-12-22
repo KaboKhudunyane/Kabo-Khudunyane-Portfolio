@@ -9,6 +9,22 @@ import loginImage from "../assets/loginImage.png";
 const Projects = () => {
   const projectList = [
     {
+      title: "Car Share",
+      description: "This project is a simple login page built using React. The page includes a heading, login form, and signup option, all styled using CSS.",
+      use: "University Project",
+      sourceCodeUrl: "https://github.com/KaboKhudunyane/CarShare",
+      projectUrl: "https://github.com/KaboKhudunyane/CarShare", // Replace with actual project URL
+      image: carshareLogo
+    },
+    {
+      title: "Campus Connect",
+      description: "Streamlined calculator application, users can perform basic calculations effortlessly, an ideal tool for quick and easy math tasks.",
+      use: "Personal Project",
+      sourceCodeUrl: "https://github.com/KaboKhudunyane/Kalculator-App",
+      projectUrl: "https://github.com/KaboKhudunyane/Kalculator-App", // Replace with netlify project URL
+      image: kalculatorLogo
+    },
+    {
       title: "Kalculator App",
       description: "Streamlined calculator application, users can perform basic calculations effortlessly, an ideal tool for quick and easy math tasks.",
       use: "Personal Project",
@@ -24,14 +40,7 @@ const Projects = () => {
       projectUrl: "https://github.com/KaboKhudunyane/To-do-List", // Replace with actual project URL
       image: toDoListLogo
     },
-    {
-      title: "Car Share Application",
-      description: "This project is a simple login page built using React. The page includes a heading, login form, and signup option, all styled using CSS.",
-      use: "University Project",
-      sourceCodeUrl: "https://github.com/KaboKhudunyane/Simple-Login-Page",
-      projectUrl: "https://github.com/KaboKhudunyane/Simple-Login-Page", // Replace with actual project URL
-      image: carshareLogo
-    },
+    
     {
       title: "Simple Login Page",
       description: "This project is a simple login page built using React. The page includes a heading, login form, and signup option, all styled using CSS.",
