@@ -2,6 +2,7 @@ import {} from 'react';
 import '../css/Projects.css'; // Import your CSS file for Projects
 
 import carshareLogo from "../assets/carshare-logo.png";
+import campusConnectLogo from "../assets/CammupusConnect- Logo.png";
 import kalculatorLogo from "../assets/kalculator-logo.png";
 import toDoListLogo from "../assets/todolist-logo.png";
 import loginImage from "../assets/loginImage.png";
@@ -22,7 +23,7 @@ const Projects = () => {
       use: "Personal Project",
       sourceCodeUrl: "https://github.com/KaboKhudunyane/Kalculator-App",
       projectUrl: "https://github.com/KaboKhudunyane/Kalculator-App", // Replace with netlify project URL
-      image: kalculatorLogo
+      image: campusConnectLogo
     },
     {
       title: "Kalculator App",
