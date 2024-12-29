@@ -2,7 +2,7 @@ import {} from 'react';
 import '../css/Projects.css'; // Import your CSS file for Projects
 
 import carshareLogo from "../assets/carshare-logo.png";
-import campusConnectLogo from "../assets/CamupusConnect- Logo.png";
+import campusConnectLogo from "../assets/CampusConnect- Logo.png";
 import kalculatorLogo from "../assets/kalculator-logo.png";
 import toDoListLogo from "../assets/todolist-logo.png";
 import loginImage from "../assets/loginImage.png";
@@ -46,7 +46,7 @@ const Projects = () => {
       title: "Simple Login Page",
       description: "This project is a simple login page built using React. The page includes a heading, login form, and signup option, all styled using CSS.",
       use: "Personal Project",
-      sourceCodeUrl: "hhttps://github.com/KaboKhudunyane/Simple-Login-Page",
+      sourceCodeUrl: "https://github.com/KaboKhudunyane/Simple-Login-Page",
       projectUrl: "https://github.com/KaboKhudunyane/Simple-Login-Page", // Replace with actual project URL
       image: loginImage
     },
