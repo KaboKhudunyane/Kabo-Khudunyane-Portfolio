@@ -2,7 +2,7 @@ import {} from 'react';
 import '../css/Projects.css'; // Import your CSS file for Projects
 
 import carshareLogo from "../assets/carshare-logo.png";
-import campusConnectLogo from "../assets/CammupusConnect- Logo.png";
+import campusConnectLogo from "../assets/CamupusConnect- Logo.png";
 import kalculatorLogo from "../assets/kalculator-logo.png";
 import toDoListLogo from "../assets/todolist-logo.png";
 import loginImage from "../assets/loginImage.png";
