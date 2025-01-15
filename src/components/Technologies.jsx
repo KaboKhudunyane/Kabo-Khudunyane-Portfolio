@@ -13,9 +13,6 @@ import postmanLogo from '../assets/postman-logo.png';
 import githubLogo from '../assets/github-logo.gif';
 import intelliJLogo from '../assets/intellij-logo.gif';
 
-
-
-
 const Technologies = () => {
   const techData = [
     {
@@ -77,8 +74,6 @@ const Technologies = () => {
       description: 'Worked with IDEs like Netbeans and IntelliJ IDEA for Java development, enhancing productivity with their debugging and testing tools.',
       image: intelliJLogo,
     },
-    
-
   ];
 
   return (
