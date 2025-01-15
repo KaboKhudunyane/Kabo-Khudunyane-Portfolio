@@ -9,6 +9,8 @@ import sqlLogo from '../assets/sql-logo.png';
 import cssLogo from '../assets/css-logo.png';
 import springLogo from '../assets/springboot-logo.png';
 import mysqlLogo from '../assets/mysql-logo.png';
+import postmanLogo from '../assets/postman-logo.png';
+
 
 const Technologies = () => {
   const techData = [
@@ -57,6 +59,12 @@ const Technologies = () => {
       description: 'Styled web pages with CSS, focusing on responsive design principles and using frameworks like Bootstrap to ensure a consistent look across devices.',
       image: cssLogo,
     },
+    {
+      "name": "POSTMAN",
+      "description": "Utilized Postman for API development and testing, creating and managing requests, automating workflows, and ensuring seamless communication between frontend and backend systems.",
+      "image": postmanLogo
+    },
+
   ];
 
   return (
