@@ -18,7 +18,8 @@ const Technologies = () => {
       name: 'Java',
       description: 'Developed academic projects focusing on object-oriented programming, enhancing my skills in building robust and efficient applications.',
       image: javaLogo,
-    },{
+    },
+    {
       name: 'SQL',
       description: 'Utilized SQL in various projects to design and manage databases, proficient in writing queries and performing data manipulation tasks.',
       image: sqlLogo,
@@ -32,22 +33,25 @@ const Technologies = () => {
       description: 'Built applications using Spring Boot for backend development, gaining experience in creating RESTful APIs and microservices architecture.',
       image: springLogo,
     },
-    
-    
+    {
+      "name": "Postman",
+      "description": "Utilized Postman for API development and testing, creating and managing requests, automating workflows, and ensuring seamless communication between frontend and backend systems.",
+      "image": postmanLogo
+    },
     {
       name: 'JavaScript',
       description: 'Implemented dynamic and interactive features on web pages, understanding core concepts such as DOM manipulation and asynchronous programming.',
       image: javascriptLogo,
     },
     {
-      name: 'React',
-      description: 'Developed user interfaces with React, building reusable components and managing application state using hooks and context API.',
-      image: reactLogo,
-    },
-    {
       name: 'Node.js',
       description: 'Explored server-side development with Node.js, creating RESTful APIs and handling server operations for full-stack applications.',
       image: nodeLogo,
+    },
+    {
+      name: 'React',
+      description: 'Developed user interfaces with React, building reusable components and managing application state using hooks and context API.',
+      image: reactLogo,
     },
     {
       name: 'HTML',
@@ -59,11 +63,7 @@ const Technologies = () => {
       description: 'Styled web pages with CSS, focusing on responsive design principles and using frameworks like Bootstrap to ensure a consistent look across devices.',
       image: cssLogo,
     },
-    {
-      "name": "POSTMAN",
-      "description": "Utilized Postman for API development and testing, creating and managing requests, automating workflows, and ensuring seamless communication between frontend and backend systems.",
-      "image": postmanLogo
-    },
+    
 
   ];
 
