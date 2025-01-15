@@ -13,23 +13,23 @@ const AboutMe = () => {
       </div>
       <br />
       <div className="about-info">
-        <p>
-          I am Kabo Khudunyane, a recent graduate in Applications Development from the Cape Peninsula University of Technology. 
-          where I learned the latest industry trends and technologies.
-        </p>
-        <p>
-         Throughout my academic journey, I have developed a strong understanding of Object-Oriented Programming (OOP), SOLID principles, and software design patterns. 
-         These principles have guided my approach to creating maintainable and efficient solutions. 
-         In addition, I have worked on various projects that reinforced the importance of structured design, clean coding practices, and problem-solving strategies.
-        </p>
-        <p>
-          I thrive in collaborative, team-oriented environments where I can contribute my skills and learn from others. 
-          I am eager to embrace new challenges, explore innovative approaches, and stay updated with emerging technologies.
-          My dedication to continuous learning and adaptability makes me a strong candidate for internships and graduate programs, 
-          where I can grow and make a meaningful impact.
-        </p>
-        <br />
-      </div>
+  <p>
+    I am Kabo Khudunyane, a recent graduate in Applications Development from the Cape Peninsula University of Technology, 
+    where I gained a strong foundation in industry trends and cutting-edge technologies.
+  </p>
+  <p>
+    Throughout my academic journey, I developed a solid understanding of Object-Oriented Programming (OOP), SOLID principles, and software design patterns. 
+    These foundational principles have shaped my ability to craft maintainable, efficient, and scalable solutions. 
+    Additionally, I worked on projects that emphasized structured design, clean coding practices, and innovative problem-solving strategies.
+  </p>
+  <p>
+    I thrive in collaborative, team-oriented environments where I can both contribute and grow. 
+    My passion for embracing new challenges, exploring innovative methodologies, and staying up-to-date with emerging technologies drives me. 
+    My commitment to continuous learning and adaptability positions me as a strong candidate for internships and graduate programs, 
+    where I aim to grow and make a meaningful impact.
+  </p>
+</div>
+
     </section>
   );
 };
