@@ -4,12 +4,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50vh;
+  height: 100vh;
   width: 100%; /* Ensure full width */;
   text-align: center;
   background-color: #f9f9f9;
   color: #333;
-  padding: 20px; 
+  padding: 10px 20px; 
 }
 
 .home-section h1 {
