@@ -14,26 +14,19 @@ const AboutMe = () => {
       <br />
       <div className="about-info">
         <p>
-          I am Kabo Khudunyane, Junior Software Engineer and 3rd year
-          Applications Development student at Cape Peninsula University of
-          Technology, where I am learning the latest industry trends and
-          technologies.
+          I am Kabo Khudunyane, a recent graduate in Applications Development from the Cape Peninsula University of Technology. 
+          where I learned the latest industry trends and technologies.
         </p>
         <p>
-          During my educational path, I have established a strong groundwork in
-          computer science fundamentals, programming languages, and
-          methodologies of software engineering. I possess expertise in Java and
-          JavaScript, having engaged in diverse projects that leverage these
-          languages to create effective and dependable solutions.
+         Throughout my academic journey, I have developed a strong understanding of Object-Oriented Programming (OOP), SOLID principles, and software design patterns. 
+         These principles have guided my approach to creating maintainable and efficient solutions. 
+         In addition, I have worked on various projects that reinforced the importance of structured design, clean coding practices, and problem-solving strategies.
         </p>
         <p>
-          I excel in collaborative environments and thrive in flexible,
-          team-oriented setups where I can contribute my skills effectively. I
-          am enthusiastic about exploring diverse approaches, staying abreast of
-          emerging trends, and adapting to innovative methodologies. My
-          commitment to continuous learning enables me to navigate the dynamic
-          landscape of technology, making me a valuable asset in team-based
-          settings.
+          I thrive in collaborative, team-oriented environments where I can contribute my skills and learn from others. 
+          I am eager to embrace new challenges, explore innovative approaches, and stay updated with emerging technologies.
+          My dedication to continuous learning and adaptability makes me a strong candidate for internships and graduate programs, 
+          where I can grow and make a meaningful impact.
         </p>
         <br />
       </div>
