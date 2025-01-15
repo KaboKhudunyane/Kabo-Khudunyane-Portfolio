@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: "Campus Connect",
       description: "A one-stop platform connecting students to multiple accommodation options in one app, streamlining the housing search process.",
-      use: "Personal Project",
+      use: "University Project",
       sourceCodeUrl: "https://github.com/KaboKhudunyane/Campus-Connect",
       projectUrl: "https://github.com/KaboKhudunyane/Campus-Connect", // Replace with netlify project URL
       image: campusConnectLogo
