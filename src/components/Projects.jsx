@@ -11,7 +11,7 @@ const Projects = () => {
   const projectList = [
     {
       title: "Car Share",
-      description: "This project is a simple login page built using React. The page includes a heading, login form, and signup option, all styled using CSS.",
+      description: " A groundbreaking platform transforming the car rental industry with a peer-to-peer model where cars are listed and rented directly from owners, revolutionizing the car hire experience.",
       use: "University Project",
       sourceCodeUrl: "https://github.com/KaboKhudunyane/CarShare",
       projectUrl: "https://github.com/KaboKhudunyane/CarShare", // Replace with actual project URL
@@ -19,10 +19,10 @@ const Projects = () => {
     },
     {
       title: "Campus Connect",
-      description: "Streamlined calculator application, users can perform basic calculations effortlessly, an ideal tool for quick and easy math tasks.",
+      description: "A one-stop platform connecting students to multiple accommodation options in one app, streamlining the housing search process.",
       use: "Personal Project",
-      sourceCodeUrl: "https://github.com/KaboKhudunyane/Kalculator-App",
-      projectUrl: "https://github.com/KaboKhudunyane/Kalculator-App", // Replace with netlify project URL
+      sourceCodeUrl: "https://github.com/KaboKhudunyane/Campus-Connect",
+      projectUrl: "https://github.com/KaboKhudunyane/Campus-Connect", // Replace with netlify project URL
       image: campusConnectLogo
     },
     {
