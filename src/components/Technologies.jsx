@@ -10,6 +10,8 @@ import cssLogo from '../assets/css-logo.png';
 import springLogo from '../assets/springboot-logo.png';
 import mysqlLogo from '../assets/mysql-logo.png';
 import postmanLogo from '../assets/postman-logo.png';
+import githubLogo from '../assets/github-logo.gif';
+
 
 
 const Technologies = () => {
@@ -62,6 +64,11 @@ const Technologies = () => {
       name: 'CSS',
       description: 'Styled web pages with CSS, focusing on responsive design principles and using frameworks like Bootstrap to ensure a consistent look across devices.',
       image: cssLogo,
+    },
+    {
+      name: 'Github',
+      description: 'Version-controlled projects using Git and GitHub, collaborating on code repositories and managing source code effectively.',
+      image: githubLogo,
     },
     
 
