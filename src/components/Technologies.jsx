@@ -11,6 +11,8 @@ import springLogo from '../assets/springboot-logo.png';
 import mysqlLogo from '../assets/mysql-logo.png';
 import postmanLogo from '../assets/postman-logo.png';
 import githubLogo from '../assets/github-logo.gif';
+import intelliJLogo from '../assets/intellij-logo.gif';
+
 
 
 
@@ -69,6 +71,11 @@ const Technologies = () => {
       name: 'Github',
       description: 'Version-controlled projects using Git and GitHub, collaborating on code repositories and managing source code effectively.',
       image: githubLogo,
+    },
+    {
+      name: 'IntelliJ',
+      description: 'Worked with IDEs like Netbeans and IntelliJ IDEA for Java development, enhancing productivity with their debugging and testing tools.',
+      image: intelliJLogo,
     },
     
 
